@@ -1,3 +1,9 @@
+### 참고하면 좋은자료
+```sql
+    웹소켓의 개념 - 번역기 돌리면서 참고해도 상당히 잘되어있다.
+    https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html#webflux-websocket
+```
+
 ### 의존성 추가해주기:
 ```sql
     implementation 'org.springframework.boot:spring-boot-starter-websocket'
