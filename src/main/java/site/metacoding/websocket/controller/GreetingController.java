@@ -12,7 +12,7 @@ import site.metacoding.websocket.websocket.HelloMessage;
 public class GreetingController {
 
     @MessageMapping("/hello")
-    @SendTo("/queue/greetings")
+    @SendTo("/topic/greetings")
     public Greeting greeting(HelloMessage message) throws Exception {
         Thread.sleep(500); // simulated delay
         // htmlEscape 메서드를 사용하여 xss 예방 escape sequence가 코드 형태로 들어감

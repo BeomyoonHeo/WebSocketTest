@@ -2,6 +2,12 @@
 ```sql
     웹소켓의 개념 - 번역기 돌리면서 참고해도 상당히 잘되어있다.
     https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html#webflux-websocket
+
+    프론트단에서 사용할 SockJs-client다 - SockJS를 통해 websocket 세션을 열어서 통신 하는 것이 가능하다.
+    https://github.com/sockjs/sockjs-client/
+
+    STOMP에 대한 개념이적힌 공식 문서다. - 번역기....
+    https://stomp.github.io/stomp-specification-1.2.html
 ```
 
 ### 의존성 추가해주기:
